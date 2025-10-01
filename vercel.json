@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/blog/:id", "destination": "/blog.html?id=:id" },
+    { "source": "/api/:path*", "destination": "/api/:path*" }
+  ]
+}
